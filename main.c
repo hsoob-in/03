@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void) {
     int input_int;
@@ -11,8 +10,8 @@ int main(void) {
     printf("enter a float : ");
     scanf("%f", &input_float);
     
-    printf("integer : %d, float : %f/n", input_int, input_float);
+    printf("integer : %d, float : %f\n", input_int, input_float);
+    system("PAUSE");
     
     return 0;
-    
 }
