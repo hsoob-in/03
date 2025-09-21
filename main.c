@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-   char c;
-   char d;
+   int a, b;
    
-   printf("Enter a character : ");
-   scanf("%c", &c);
+   printf("분자를 입력하세요 : ");
+   scanf("%d", &a);
    
-   d = c + 1;
+   printf("분모를 입력하세요 : ");
+   scanf("%d", &b);
    
-   printf("The next character of %c (%d) is %c (%d)\n", c,c,d,d);
+   printf("나누기의 결과는 %f 입니다.\n", (float)a/b);
    
    system("PAUSE");
    
